@@ -41,7 +41,6 @@ class CashRegister
     self.total = @total - @all_transactions.pop
     self.total
   end
-  
 end
 
 ##note: class methods- when calling in another method, must use self.att
