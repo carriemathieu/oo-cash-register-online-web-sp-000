@@ -39,7 +39,7 @@ class CashRegister
   
   def void_last_transaction
     @all_transactions.pop
-    @total = @all_transactions.toString()
+    @total = @all_transactions
   end
 end
 
